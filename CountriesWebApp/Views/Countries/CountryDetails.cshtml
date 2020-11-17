@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewData["Title"] = "Country Details";
+}
+
+@model Country
+<h3>@Model.Name</h3>
+<p><b>Language:</b> @Model.Language</p>
+<p><b>Greeting:</b> @Model.Greeting</p>
+<p><b>Description:</b>@Model.Description</p>
+<p>
+    <b>National Colors:</b>
+    <ul>
+        @foreach (var color in Model.NationalColors)
+        {
+            <li>@color</li>
+        }
+    </ul>
+</p>
+
+<a asp-action="Index" asp-controller="Countries">
+    <button>Learn about another country</button>
+</a>
