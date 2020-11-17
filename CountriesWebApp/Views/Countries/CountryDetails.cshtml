@@ -2,12 +2,12 @@
 @{
     ViewData["Title"] = "Country Details";
 }
+@TempData["Name"] = @ViewBag.cName;
 
 @model Country
-<h3>@Model.Name</h3>
+<h3>@ViewBag.cName</h3>
 <p><b>Language:</b> @Model.Language</p>
 <p><b>Greeting:</b> @Model.Greeting</p>
-<p><b>Description:</b>@Model.Description</p>
 <p>
     <b>National Colors:</b>
     <ul>
@@ -18,6 +18,6 @@
     </ul>
 </p>
 
-<a asp-action="Index" asp-controller="Countries">
-    <button>Learn about another country</button>
+<a asp-action="CountryDescription" asp-controller="Countries">
+    <button>Learn more about this country</button>
 </a>

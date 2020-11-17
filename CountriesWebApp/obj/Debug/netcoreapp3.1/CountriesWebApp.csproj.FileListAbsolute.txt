@@ -1,6 +1,5 @@
 C:\Users\jenif\source\repos\CountriesWebApp\CountriesWebApp\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\jenif\source\repos\CountriesWebApp\CountriesWebApp\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Users\jenif\source\repos\CountriesWebApp\CountriesWebApp\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\Users\jenif\source\repos\CountriesWebApp\CountriesWebApp\bin\Debug\netcoreapp3.1\CountriesWebApp.exe
 C:\Users\jenif\source\repos\CountriesWebApp\CountriesWebApp\obj\Debug\netcoreapp3.1\CountriesWebApp.csprojAssemblyReference.cache
 C:\Users\jenif\source\repos\CountriesWebApp\CountriesWebApp\obj\Debug\netcoreapp3.1\CountriesWebApp.AssemblyInfoInputs.cache
@@ -110,3 +109,5 @@ C:\Users\jenif\source\repos\CountriesWebApp\CountriesWebApp\obj\Debug\netcoreapp
 C:\Users\jenif\source\repos\CountriesWebApp\CountriesWebApp\obj\Debug\netcoreapp3.1\CountriesWebApp.genruntimeconfig.cache
 C:\Users\jenif\source\repos\CountriesWebApp\CountriesWebApp\obj\Debug\netcoreapp3.1\Razor\Views\Countries\Countries.cshtml.g.cs
 C:\Users\jenif\source\repos\CountriesWebApp\CountriesWebApp\obj\Debug\netcoreapp3.1\Razor\Views\Countries\CountryDetails.cshtml.g.cs
+C:\Users\jenif\source\repos\CountriesWebApp\CountriesWebApp\obj\Debug\netcoreapp3.1\scopedcss\bundle\CountriesWebApp.styles.css
+C:\Users\jenif\source\repos\CountriesWebApp\CountriesWebApp\obj\Debug\netcoreapp3.1\Razor\Views\Countries\CountryDescription.cshtml.g.cs

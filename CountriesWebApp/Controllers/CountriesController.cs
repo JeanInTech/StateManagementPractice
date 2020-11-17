@@ -38,9 +38,16 @@ namespace CountriesWebApp.Controllers
                 new Country("Canada", "English", "Eh?", "The northern part of North America", canadaColors),
                 new Country("China", "Chinese", "Nihao", "Largest country in Asia", chinaColors)
             };
-
             Country c = Countries[index];
+            ViewBag.cname = c.Name;
+            TempData["MoreStuff"] = c.Description;
             return View(c);
+        }
+
+        public IActionResult CountryDescription()
+        {
+
+            return View();
         }
     }
 }

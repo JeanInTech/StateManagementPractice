@@ -3,5 +3,10 @@
     ViewData["Title"] = "CountryDescription";
 }
 
-<h1>CountryDescription</h1>
+<h1>Country Description</h1>
 
+<h3>@TempData["MoreStuff"]</h3>
+
+<a asp-action="Index" asp-controller="Countries">
+    <button>Learn more about another country</button>
+</a>
